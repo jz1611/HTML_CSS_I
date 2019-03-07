@@ -1,0 +1,36 @@
+body div {
+  width: 100%;
+}
+
+body .box1,
+body .box2,
+body .box3,
+body .box4 {
+  height: 150px;
+  width: 150px;
+  color: white;
+  border: solid 12.5px black;
+  font-size: 75px;
+  padding-top: 25px;
+  text-align: center;
+}
+
+body .box1 {
+  background: red;
+  float: left;
+}
+
+body .box2 {
+  float: left;
+  background: blue;
+}
+
+body .box3 {
+  background: red;
+  float: right;
+}
+
+body .box4 {
+  float: right;
+  background: blue;
+}
