@@ -1,0 +1,83 @@
+body {
+    height: 100vh;
+    background: aqua;
+}
+
+header {
+    background: black;
+    height: 100px;
+    padding: 25px 50px;
+}
+
+header > .logo,
+header > .main-nav {
+    background-color: white;
+    height: 100%;
+}
+
+.logo {
+    width: 100px;
+    float: left;
+}
+
+.main-nav {
+    width: 200px;
+    float: right;
+}
+
+.main-container {
+    height: 300px;
+    width: 600px;
+    background: black;
+    margin: 100px auto;
+    padding: 25px 50px;
+}
+
+.box-one,
+.box-two {
+    height: 50px;
+    background: white;
+    margin: 20px auto;
+
+}
+
+.box-two {
+    width: 400px;
+}
+
+/* .button-left,
+.button-right {
+    height: 40px;
+    background: white;
+    width: 200px;
+    border-radius: 50px;
+    margin: 25px 0;
+}
+
+.button-left {
+    float: left;
+    margin-left: 40px;
+}
+
+.button-right {
+    float: right;
+    margin-right: 40px;
+} */
+
+.button-left,
+.button-right {
+    height: 30px;
+    width: 180px;
+    background: white;
+    border-radius: 20px;
+}
+
+.button-left {
+    float: left;
+    margin-left: 50px;
+}
+
+.button-right {
+    float: right;
+    margin-right: 50px;
+}
