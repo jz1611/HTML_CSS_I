@@ -1,0 +1,52 @@
+/* h1 {
+    font-size: 72px;
+}
+
+div {
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    display: inline-block;
+    padding: 10px;
+    border: 10px solid black;
+    margin: 10px;
+}
+
+.box2 {
+    background-color: purple;
+}
+
+span {
+    height: 100px;
+    width: 100px;
+    background-color: red;
+}
+
+#box1 {
+    background-color: sandybrown;
+} */
+
+.box1,
+.box2,
+.box3,
+.box4 {
+    background: red;
+    height: 100px;
+    width: 100px;
+    color: white;
+    font-size: 75px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.box1,
+.box3 {
+    float: right;
+    /* clear: both; */
+}
+
+.box2,
+.box4 {
+    float: left;
+    /* clear: both; */
+}
